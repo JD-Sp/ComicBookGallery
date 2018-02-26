@@ -27,6 +27,15 @@
         </div>
     </div>
 
+    @if (ViewBag.ShowBackBar != null && ViewBag.ShowBackBar)
+    {    
+        <div class="backbar">
+            <div class="container">
+                <a class="btn btn-default" asp-controller="ComicBooks" asp-action="Index">Return to List</a>
+            </div>
+        </div>
+    }
+
     <div class="container body-content">
         @RenderBody()
         <hr />
