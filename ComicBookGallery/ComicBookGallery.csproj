@@ -19,6 +19,7 @@
     <Folder Include="wwwroot\Images\" />
     <Folder Include="wwwroot\lib\" />
     <Folder Include="wwwroot\js\" />
+    <Folder Include="Data\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\HomeController.cs" />
