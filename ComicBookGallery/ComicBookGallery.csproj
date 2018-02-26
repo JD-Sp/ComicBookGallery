@@ -14,10 +14,11 @@
 
   <ItemGroup>
     <Folder Include="Views\ComicBooks\" />
-    <Folder Include="Content\" />
-    <Folder Include="Images\" />
-    <Folder Include="Scripts\" />
-    <Folder Include="lib\" />
+    <Folder Include="wwwroot\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="wwwroot\Images\" />
+    <Folder Include="wwwroot\lib\" />
+    <Folder Include="wwwroot\js\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Controllers\HomeController.cs" />
